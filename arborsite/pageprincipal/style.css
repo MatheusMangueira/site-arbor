@@ -18,6 +18,7 @@ nav{
     align-items: center;  
     height: 10vh;   
     margin: 4vh;
+    
 }
 
 .menu ul li  {
@@ -29,7 +30,7 @@ a {
     text-decoration: none;
     padding: 20px;
     color: #1EA4CE;
-    font-size: 1.5rem;   
+    font-size: 1.5rem; 
 }
 
 .botaoorçamento {
@@ -40,6 +41,10 @@ a {
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.404);
     animation: colors 5s ease infinite;
     background-size: 300% 300%;
+}
+
+.botaoorçamento:hover {
+    background: #7000FF;
 }
 
 /* Animação do botão (vai servir para todos os botões*/
@@ -99,6 +104,10 @@ a {
     box-shadow: 1px 0px 20px 6px #00bcd4;
 }
 
+.botaoqueromeusite:hover {
+    background: #7000FF;
+}
+
 /* segunda parte do site (seção 2)*/
 
 .primeirafotouniverso {
@@ -106,20 +115,20 @@ a {
     height: 55vh;
     display: flex;
     justify-content: space-between;
-}
-
-.primeirafotouniverso img {
-    width: 100%;
-    height: 100%;
-    position: relative;
+    background-image: url(../imagens/universo1.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative; 
 }
 
 .landingpage{
     position: absolute;
-    left: 8vw;
-    top: 55.563rem;
-    bottom: -21vh;
-    right: 88.063rem;
+    left: 10rem;
+    top: 5rem;
+    bottom: 5rem;
+    right: 85rem;
 
     text-align: left;
     box-shadow: 5px 5px 9px 0px rgb(0 0 0 / 31%);
@@ -147,10 +156,10 @@ a {
     position: absolute;    
     text-align: left;
     border: black 15px solid;
-    top: 55.563rem;
-    left: 38vw;
-    bottom: -21vh;
-    right: 52.313rem;
+    top: 5rem;
+    bottom: 5rem;
+    left: 46rem;
+    right: 48rem;
     box-shadow: 5px 5px 9px 0px rgb(0 0 0 / 31%);
     border-image: linear-gradient(50deg ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
     border-width: 13px;
@@ -180,10 +189,10 @@ a {
     border-width: 13px;
     border-style: solid;
     border-image-slice: 1;
-    top: 55.563rem;
-    left: 66vw;
-    right: 17.938rem; 
-    bottom: -21vh;
+    top: 5rem;
+    left: 82rem;
+    right: 13rem;
+    bottom: 5rem;
 }
 
 .lojavirtual > h2 {
@@ -338,32 +347,41 @@ a {
     align-items:center;
 }
 
+.secaodoorçamento > form > p {
+    color: white;
+    font-size: 1.5rem;
+    padding: 6px;
+}
+
+
 .formulario {
-    border-radius: 20px;
-    background: rgb(241, 239, 239);
+    border-radius: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;   
     position: absolute;
-    padding: 20px;
+    padding: 30px;
     width: 25rem;
     height: 35rem;
     left: 25rem; 
-    box-shadow: 0px 1px 20px 15px #0a9fe4c2;
+    box-shadow: 9px 8px 20px 3px #00000057;
+    border: #00e2ff 5px solid;
 }
 
 .input {
-    padding: 10px;
+    padding: 15px;
     margin: 10px;
     width: 20vw;
     border-radius: 0px;
     font-size: 1rem;
     box-shadow: 5px 5px 9px 0px rgb(0 0 0 / 31%);
-    border-image: linear-gradient(10deg ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
-    border-width: 3px;
-    border-style: solid;
-    border-image-slice: 1;
+    border: none;
+    border-radius: 10px;
     
+}
+
+.input:first-child {
+    margin-top: 3vh;
 }
 
 #numero {
@@ -375,7 +393,7 @@ a {
 #msg {
     min-height: 13rem;
     resize: vertical;
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 
 .submeterorçamento {
@@ -387,9 +405,28 @@ a {
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.404);
     animation: colors 5s ease infinite;
     background-size: 300% 300%;
-    box-shadow: 1px 0px 20px 6px #0055d4;
-    
+    box-shadow: 1px 0px 20px 6px #0055d4;  
 } 
+
+.submeterorçamento:hover{
+    background: #7000FF;
+}
+
+@keyframes fly {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    50% {
+        transform: translate(200%, -50px);
+    }
+
+    100% { 
+        transform: translate(calc(39vw - 200px), 0);
+    }
+}
+
+
 
 .textogratis {
     display: flex;
@@ -405,7 +442,7 @@ a {
 }
 
 .textogratis > h2 > span {
-    color: #000000;
+    color: #00ffe3;
 }
 
 .foguete {
@@ -414,7 +451,10 @@ a {
     justify-content: end;
     position: absolute;
     left: 72rem;
-    top: 28rem;
+    top: 25rem;
+    animation: fly 2s;
+    animation-iteration-count: infinite;
+    
 }
 
 /* footer*/
@@ -432,6 +472,11 @@ footer {
     align-items: center;
 }
 
+.contato > p{
+    padding: 5px;
+    
+}
+
 .arborfooter {
     height: 8vh;
 }
@@ -439,75 +484,3 @@ footer {
 .expecificao {
     margin: 5px;
 }
-
-.icones {
-    display: flex;
-    height: 3vh;
-    width: 3vw;
-    position: absolute;
-    left: 100rem;
-    top: 7rem;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-@media (max-width: 750px) {
-    .navlist {
-        position: absolute;
-        top: 8vh;
-        right: 0;
-        width: 100vh;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-    }
-} */
