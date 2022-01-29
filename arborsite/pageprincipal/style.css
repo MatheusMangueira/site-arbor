@@ -484,3 +484,42 @@ footer {
 .expecificao {
     margin: 5px;
 }
+
+.icones {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.icones > li {
+    color: #7000FF;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    display: block;
+    position: relative;
+    background: #01E0C5;
+    line-height: 60px;
+    border-radius: 50%;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.icones > li:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #01E0C5;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);     
+}
+
+.icones > li:hover {
+    transform: scale(1.2);
+   
+    
+}
