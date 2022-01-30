@@ -4,10 +4,17 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html{
+    font-size: 100%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
 
 body{
     background-color: #F4F4F4;
+    font-size: 1.6rem;
 }
 
 /* Meu menu*/
@@ -17,8 +24,8 @@ nav{
     justify-content: space-around;
     align-items: center;  
     height: 10vh;   
-    margin: 4vh;
-    
+    margin: auto;
+    width: 100%;   
 }
 
 .menu ul li  {
@@ -28,7 +35,7 @@ nav{
 
 a {
     text-decoration: none;
-    padding: 20px;
+    padding: 1.25rem;
     color: #1EA4CE;
     font-size: 1.5rem; 
 }
@@ -36,7 +43,7 @@ a {
 .botaoorçamento {
     background:linear-gradient(to right ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
     border-radius: 40px;
-    padding: 15px 30px;
+    padding: 0.938rem 1.875rem;
     color: rgb(255, 255, 255); 
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.404);
     animation: colors 5s ease infinite;
@@ -95,7 +102,7 @@ a {
 .botaoqueromeusite {
     background:linear-gradient(to right ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
     border-radius: 40px;
-    padding: 15px 30px;
+    padding: 0.938rem 1.875rem;
     color: rgb(255, 255, 255);
     margin-left: 21vw;
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.404);
@@ -113,8 +120,6 @@ a {
 .primeirafotouniverso {
     margin-top: 8vh;
     height: 55vh;
-    display: flex;
-    justify-content: space-between;
     background-image: url(../imagens/universo1.png);
     background-repeat: no-repeat;
     background-position: right center;
@@ -125,11 +130,10 @@ a {
 
 .landingpage{
     position: absolute;
-    left: 10rem;
-    top: 5rem;
-    bottom: 5rem;
-    right: 85rem;
-
+    left: 10%;
+    top: 25%;
+    bottom: 20%;
+    right: 70%;
     text-align: left;
     box-shadow: 5px 5px 9px 0px rgb(0 0 0 / 31%);
     border-image: linear-gradient(90deg ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
@@ -141,14 +145,14 @@ a {
 .landingpage > h2 {
     color: #01E0C5;
     font-size: 2rem;
-    padding: 15px;
+    padding: 0.938rem;
     margin: 0.625rem;
 }
 
 .landingpage > p {
     color: white;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 0.938rem;
     margin: 0.625rem;
 }
 
@@ -156,10 +160,10 @@ a {
     position: absolute;    
     text-align: left;
     border: black 15px solid;
-    top: 5rem;
-    bottom: 5rem;
-    left: 46rem;
-    right: 48rem;
+    top: 25%;
+    bottom: 20%;
+    left: 40%;
+    right: 40%;
     box-shadow: 5px 5px 9px 0px rgb(0 0 0 / 31%);
     border-image: linear-gradient(50deg ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
     border-width: 13px;
@@ -170,14 +174,14 @@ a {
 .siteinsitucional > h2 {
     color: #01E0C5;
     font-size: 2rem;
-    padding: 15px;
+    padding: 0.938rem;
     margin: 0.625rem;
 }
 
 .siteinsitucional > p {
     color: white;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 0.938rem;
     margin: 0.625rem;
 }
 
@@ -189,23 +193,23 @@ a {
     border-width: 13px;
     border-style: solid;
     border-image-slice: 1;
-    top: 5rem;
-    left: 82rem;
-    right: 13rem;
-    bottom: 5rem;
+    top: 25%;
+    left: 70%;
+    right: 10%;
+    bottom: 20%;
 }
 
 .lojavirtual > h2 {
     color: #01E0C5;
     font-size: 2rem;
-    padding: 15px;
+    padding: 0.938rem;
     margin: 0.625rem;
 }
 
 .lojavirtual > p {
     color: white;
     font-size: 1.5rem;
-    padding: 15px;
+    padding: 0.938rem;
     margin: 0.625rem;
 }
 
@@ -213,7 +217,7 @@ a {
 
 #titulonossaequipe {
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
     margin: 5rem 0rem 5rem 0rem;
     font-size: 3rem;
     color: #0A83A9;
@@ -226,7 +230,7 @@ a {
 }
 
 .alternativo {
-    padding: 5px;
+    padding: 0.313rem;
     margin: 0.625rem 3.125rem 0.625rem 0.625rem ;
     box-shadow: 5px 5px 9px 0px rgb(0 0 0 / 31%);
     border-image: linear-gradient(10deg ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
@@ -249,7 +253,7 @@ a {
 }
 
 .eu {
-    padding: 5px;
+    padding: 0.313rem;
     margin: 0.625rem 3.125rem 0.625rem 0.625rem ;
     box-shadow: 5px 5px 9px 0px rgb(0 0 0 / 31%);
     border-image: linear-gradient(10deg ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
@@ -275,7 +279,7 @@ a {
 
 #portfolio {
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
     margin: 5rem 0rem 5rem 0rem;
     font-size: 3rem;
     color: #0A83A9;
@@ -294,7 +298,7 @@ a {
     border-width: 5px;
     border-style: solid;
     border-image-slice: 1;
-    padding: 3px 3px 0px 3px;
+    padding: 0.188rem 0.188rem 0rem 0.188rem;
 }
 
 .portfolio-link{
@@ -309,7 +313,7 @@ a {
     border-width: 5px;
     border-style: solid;
     border-image-slice: 1;
-    padding: 3px 3px 0px 3px;
+    padding: 0.188rem 0.188rem 0rem 0.188rem;
 }
 
 .terceiroportfolio {
@@ -319,7 +323,7 @@ a {
     border-width: 5px;
     border-style: solid;
     border-image-slice: 1;
-    padding: 3px 3px 0px 3px;
+    padding: 0.188rem 0.188rem 0rem 0.188rem;
 }
 
 .iconeesquerda {
@@ -337,7 +341,7 @@ a {
 
 #clientes {
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
     margin: 5rem 0rem 5rem 0rem;
     font-size: 3rem;
     color: #0A83A9;
@@ -372,29 +376,20 @@ a {
     margin-top: 0rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* quinta parte do site (seção 5)*/
+/* quinta parte do site (seção 5) */
 
 #orçamento {
     text-align: center;
-    padding: 10px;
+    padding: 0.625rem;
     margin: 5rem 0rem 5rem 0rem;
     font-size: 3rem;
     color: #0A83A9;
 }
 
 .secaodoorçamento {   
-    background-image:linear-gradient(90deg ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);    width: 100%;
-    height: 45rem;
+    background-image:linear-gradient(90deg ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);   
+    width: 100%;
+    height: 45rem;  
     position: relative;
     display: flex;
     align-items:center;
@@ -403,7 +398,7 @@ a {
 .secaodoorçamento > form > p {
     color: white;
     font-size: 1.5rem;
-    padding: 6px;
+    padding: 0.375rem;
 }
 
 
@@ -413,7 +408,7 @@ a {
     flex-direction: column;
     align-items: center;   
     position: absolute;
-    padding: 30px;
+    padding: 1.875rem;
     width: 25rem;
     height: 35rem;
     left: 25rem; 
@@ -422,10 +417,10 @@ a {
 }
 
 .input {
-    padding: 15px;
-    margin: 10px;
-    width: 20vw;
-    border-radius: 0px;
+    padding: 0.938rem;
+    margin: 0.625rem;
+    width: 20rem;
+    border-radius: 0rem;
     font-size: 1rem;
     box-shadow: 5px 5px 9px 0px rgb(0 0 0 / 31%);
     border: none;
@@ -447,7 +442,7 @@ a {
     font-size: 1.5rem;
     background:linear-gradient(to right ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
     border-radius: 40px;
-    padding: 15px 30px;
+    padding: 0.938rem 1.875rem;
     color: rgb(255, 255, 255);
     box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.404);
     animation: colors 5s ease infinite;
@@ -459,6 +454,7 @@ a {
     background: #7000FF;
 }
 
+/*
 @keyframes fly {
     0% {
         transform: translate(0, 0);
@@ -471,7 +467,7 @@ a {
     100% { 
         transform: translate(calc(39vw - 200px), 0);
     }
-}
+} */
 
 
 
@@ -510,6 +506,7 @@ footer {
     background: rgb(209, 211, 208);
     height: 20vh;  
     position: relative; 
+    width: 100%;
 }
 
 .footer-final {
@@ -517,11 +514,11 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 0.95rem;
 }
 
 .contato > p{
-    padding: 5px;
-    
+    padding: 0.313rem;
 }
 
 .arborfooter {
@@ -529,7 +526,7 @@ footer {
 }
 
 .expecificao {
-    margin: 5px;
+    margin: 0.313rem;
 }
 
 .icones {
@@ -540,15 +537,15 @@ footer {
 
 .icones > li {
     color: #7000FF;
-    font-size: 30px;
-    width: 60px;
-    height: 60px;
+    font-size: 1.875rem;
+    width: 3.75rem;
+    height: 3.75rem;
     display: block;
     position: relative;
     background: #01E0C5;
-    line-height: 60px;
+    line-height: 3.75rem;
     border-radius: 50%;
-    margin: 0 15px;
+    margin: 0rem 0.938rem;
     cursor: pointer;
 }
 
@@ -567,4 +564,160 @@ footer {
 
 .icones > li:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 1677px) {
+    .foguete {
+        width: 10rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 1441px) {
+    html {
+        font-size: 70%;
+    }
+    .foguete {
+        width: 10rem;
+        height: 18rem;
+    }
+}
+
+@media  (max-width: 1040px) {
+    html {
+        font-size: 70%;
+    }
+    
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        
+    }        
+
+    .fotoprincipal {
+        margin-top: 1rem;
+        width: 45rem;
+        height: 30rem;
+    }
+
+    .quero > ul >li {
+        margin-top: 3rem;
+        list-style: none;
+    }
+
+    .fotosdesites {
+        display: block;
+         text-align: center;
+         width: 37%;
+         justify-content: center;
+         margin-left: 33%;
+    }
+
+    .iconedireita, .iconeesquerda {
+        display: none;
+    }
+
+    .primeiroportfolio{
+        margin: 0rem 7rem 0rem 4rem;
+        margin-bottom: 1rem;
+    }
+    
+    .segundoportfolio {
+        margin: 0rem 7rem 0rem 4rem;
+        margin-bottom: 1rem;
+    }
+    .terceiroportfolio {
+        margin: 0rem 7rem 0rem 4rem;
+    }
+
+    .comentarios-clientes{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .area-do-cliente {
+        width: auto;
+        margin-bottom:5rem;
+        margin: 1rem 2rem 0rem 2rem;
+
+    }
+
+    .test {
+        display: none;
+    }
+
+    .textogratis, .foguete {
+        display: none;
+    }
+    
+}
+    
+    @media (max-width: 769px) {
+        html {
+            font-size: 60%;
+        }
+        
+        .section1 {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }        
+
+        .fotoprincipal {
+            margin-top: 1rem;
+            width: 45rem;
+            height: 30rem;
+        }
+
+        .quero > ul >li {
+            margin-top: 3rem;
+            list-style: none;
+        }
+
+        .fotosdesites {
+            display: block;
+             text-align: center;
+             width: 37%;
+             justify-content: center;
+             margin-left: 33%;
+        }
+
+        .iconedireita, .iconeesquerda {
+            display: none;
+        }
+        
+        .primeiroportfolio{
+            margin: 0rem 2.5rem 0rem 0rem;
+        
+        }
+        .segundoportfolio {
+            margin: 0rem 2.5rem 0rem 0rem;
+        }
+
+        .terceiroportfolio {
+            margin: 0rem 2.5rem 0rem 0rem;
+        }
+
+        .comentarios-clientes{
+            display: block;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .area-do-cliente {
+            width: auto;
+            margin-bottom:5rem;
+            margin: 1rem 2rem 0rem 2rem;
+
+        }
+
+        .test {
+            display: none;
+        }
+
+        .textogratis, .foguete {
+            display: none;
+        }
 }
