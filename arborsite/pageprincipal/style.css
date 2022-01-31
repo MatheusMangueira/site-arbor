@@ -658,6 +658,13 @@ footer {
         html {
             font-size: 60%;
         }
+        .arbormaker {
+            display: none;
+        }
+
+        .menu > ul > li > a{
+            font-size: 2rem;
+        }
         
         .section1 {
             flex-direction: column;
@@ -676,6 +683,13 @@ footer {
             list-style: none;
         }
 
+        .quemsomos {
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+            margin: 0rem 20rem 0rem 20rem;
+        }
+
         .fotosdesites {
             display: block;
              text-align: center;
@@ -689,11 +703,11 @@ footer {
         }
         
         .primeiroportfolio{
-            margin: 0rem 2.5rem 0rem 0rem;
+            margin: 0rem 2.5rem 1rem 0rem;
         
         }
         .segundoportfolio {
-            margin: 0rem 2.5rem 0rem 0rem;
+            margin: 0rem 2.5rem 1rem 0rem;
         }
 
         .terceiroportfolio {
@@ -704,12 +718,13 @@ footer {
             display: block;
             justify-content: center;
             align-items: center;
+            
         }
 
         .area-do-cliente {
             width: auto;
             margin-bottom:5rem;
-            margin: 1rem 2rem 0rem 2rem;
+            margin: 1rem 8rem 0rem 8rem;
 
         }
 
@@ -720,4 +735,168 @@ footer {
         .textogratis, .foguete {
             display: none;
         }
+}
+
+
+
+
+
+@media (max-width: 430px) {
+    html {
+        font-size: 50%;
+    }
+
+    .arbormaker {
+        display: none;
+    }
+
+    .menu > ul > li > a{
+        font-size: 2rem;
+    }
+    
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }       
+    
+    .quero {
+        margin-left: 4rem;
+    }
+
+    .fotoprincipal {
+        margin-top: 1rem;
+        width: 45rem;
+        height: 30rem;
+    }
+
+    .quero > ul >li {
+        margin-top: 3rem;
+        list-style: none;
+    }
+
+    .primeirafotouniverso {
+        display: none;
+    }
+
+    .botaoqueromeusite{
+        margin-left: 15rem;}
+
+    #titulonossaequipe {
+        margin: 10rem;
+    }
+
+    .quemsomos {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 4rem 0rem 4rem
+    }
+
+    .fotosdesites {
+        display: block;
+         text-align: center;
+         width: 37%;
+         justify-content: center;
+         margin-left: 33%;
+    }
+
+    .iconedireita, .iconeesquerda {
+        display: none;
+    }
+    
+    .primeiroportfolio{
+        margin: 0rem -3.5em 1rem -7rem;
+    }
+    
+    .segundoportfolio {
+        margin: 0rem -3.5em 1rem -7rem;
+    }
+        
+    .terceiroportfolio {
+        margin: 0rem -3.5em 0rem -7rem;    
+    }
+
+    .comentarios-clientes{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .area-do-cliente {
+        width: auto;
+        margin-bottom:5rem;
+        margin: 1rem 2rem 0rem 2rem;
+
+    }
+
+    .test {
+        display: none;
+    }
+
+    .textogratis, .foguete {
+        display: none;
+    }
+    
+    .formulario {
+        left: 12rem;
+    }
+}
+
+@media (max-width:378px){
+    .quero {
+        margin-left: 6.8rem;
+    }
+
+    .fotoprincipal {
+        width: 33rem;
+        height: 26rem; 
+    }
+    
+    .botaoqueromeusite{
+        margin-left: auto;
+    }
+
+    #titulonossaequipe {
+        margin: 8rem;
+    }
+
+    .quemsomos {
+        margin: auto;
+    }
+
+    .alternativo {
+        width: 30rem;
+        margin: 0rem 5rem 0rem 5rem;
+        margin-bottom: 1rem;
+    }
+
+    .alternativo > img {
+        width: 30rem;
+    }
+
+    .eu {
+        width: 30rem;
+        margin: 0rem 5rem 0rem 5rem;
+    }
+
+    .eu > img {
+        width: 30rem;
+    }
+
+    .primeiroportfolio {
+        margin: 0rem -6.5rem 1rem -7rem;
+    }
+
+    .segundoportfolio {
+        margin: 0rem -6.5rem 1rem -7rem;
+    }
+
+    .terceiroportfolio {
+        margin: 0rem -6.5rem 0rem -7rem;
+    }
+
+    .formulario {
+        left: 7rem;
+    }
 }
