@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;   
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    font-size: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+
+body{
+    background-color: #F4F4F4;
+    font-size: 1.6rem;
+}
+
+/* Meu menu*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    height: 10vh;   
+    margin: auto;
+    width: 100%;   
+}
+
+.menu ul li  {
+    display: inline;
+    font-size: 1.0rem;
+}
+
+a {
+    text-decoration: none;
+    padding: 1.25rem;
+    color: #1EA4CE;
+    font-size: 1.5rem; 
+}
+
+.botaoorçamento {
+    background:linear-gradient(to right ,#7000FF,#4200FF,#0038FF,#0A83A9, #01E0C5);
+    border-radius: 40px;
+    padding: 0.938rem 1.875rem;
+    color: rgb(255, 255, 255); 
+    box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.404);
+    animation: colors 5s ease infinite;
+    background-size: 300% 300%;
+}
+
+.botaoorçamento:hover {
+    background: #7000FF;
+}

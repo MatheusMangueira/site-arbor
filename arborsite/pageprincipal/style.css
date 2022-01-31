@@ -653,8 +653,8 @@ footer {
     }
     
 }
-    
-    @media (max-width: 769px) {
+
+ @media (max-width: 769px) {
         html {
             font-size: 60%;
         }
@@ -736,10 +736,6 @@ footer {
             display: none;
         }
 }
-
-
-
-
 
 @media (max-width: 430px) {
     html {
