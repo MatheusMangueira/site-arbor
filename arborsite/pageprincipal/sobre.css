@@ -53,3 +53,106 @@ a {
 .botaoorçamento:hover {
     background: #7000FF;
 }
+
+.sobre-empresa {
+    display: flex;
+    flex-direction: column;
+    width: 62rem;
+    margin: 5rem;
+    position: relative;
+}
+
+.sobre-empresa > p{
+    margin-bottom: 3rem;
+}
+
+.imagem-sobre-empresa {
+    position: absolute;
+    left: 70rem;
+    top: 12rem;
+    margin: 3rem;
+}
+
+.sobre {
+    font-size: 3.3rem;
+    color: #0A83A9;
+    padding: 10px;
+    text-align: center;
+}
+
+/* footer*/
+
+footer {
+    background: rgb(209, 211, 208);
+    height: 20vh;  
+    
+}
+
+.footer-final {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.95rem;
+}
+
+.contato > p{
+    padding: 0.313rem;
+}
+
+.arborfooter {
+    height: 8vh;
+}
+
+.expecificao {
+    margin: 0.313rem;
+}
+
+.icones {
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.icones > li {
+    color: #7000FF;
+    font-size: 1.875rem;
+    width: 3.75rem;
+    height: 3.75rem;
+    display: block;
+    position: relative;
+    background: #01E0C5;
+    line-height: 3.75rem;
+    border-radius: 50%;
+    margin: 0rem 0.938rem;
+    cursor: pointer;
+}
+
+.icones > li:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #01E0C5;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.9);     
+}
+
+.icones > li:hover {
+    transform: scale(1.2);
+}
+
+.feito-por {
+    text-align: center;
+    font-size: 0.9rem;
+    background: rgba(2, 2, 2, 0.801);
+    padding: 0.4rem;
+}
+.feito-por > p > a {
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: white;
+}
